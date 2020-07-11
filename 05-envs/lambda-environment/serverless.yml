@@ -11,7 +11,7 @@ provider:
 
 custom:
   schedulerRate: rate(1 minute)
-  enabled: true
+  enabled: false
   tableName: ${self:provider.environment.DbTableName}
   dbWriteCapacityUnits: ${self:provider.environment.DbWriteCapacityUnits}
   dbReadCapacityUnits: ${self:provider.environment.DbReadCapacityUnits}
